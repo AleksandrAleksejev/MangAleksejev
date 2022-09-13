@@ -7,11 +7,12 @@ using System.Threading.Tasks;
 namespace MangAleksejev
 {
 
-    abstract class Ese : IUksus
+     class Ese : IUksus //наследует от IUksus
     {
         public string nimetus;
         public int punktidearv;
-    
+        public Ese() { }
+
 
         public Ese(string nimetus, int punktudearv)//Klassis peab olema kahe parameetriga konstruktor, mille abil saab määrata nimetuse ja punktidearvu
         {

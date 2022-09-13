@@ -8,7 +8,7 @@ namespace MangAleksejev
 {
     interface IUksus
     {
-        int puhtrpunktidearv()//Klassis on privaatsed isendiväljad järgmise info jaoks: nimetus (String) ja punktide arv (int).
+        int punktidearv()//Klassis on privaatsed isendiväljad järgmise info jaoks: nimetus (String) ja punktide arv (int).
         {
             throw new NotImplementedException();
         }
