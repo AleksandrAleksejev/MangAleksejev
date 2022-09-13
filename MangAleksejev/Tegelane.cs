@@ -50,13 +50,11 @@ namespace MangAleksejev
                 Console.WriteLine(item);
             }
         }
-    //        interface Comparable<Tegelane>
-    //        {
-     //           public int CompareTo(Temperature other)
-     //           {
-     //               return m_value.CompareTo(other.m_value);
-     //           }
-     //       }
+         public int CompareTo(Tegelane? other)
+         {
+            if (other == null) return 1;
+            return m_value.CompareTo(other.m_value);
+         }
 
 
 
