@@ -32,7 +32,7 @@ namespace MangAleksejev
         public string info()
         {
             Console.WriteLine($"Nimi: {nimi}");
-            foreach (string line in File.ReadLines(@"..\..\..\esemed.txt"))
+            foreach (string line in File.ReadLines(@"..\..\..\esemedFail.txt"))
             {
                 string[] row = line.Split(';');
                 summary += Double.Parse(row[1]);
