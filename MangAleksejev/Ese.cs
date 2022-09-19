@@ -26,6 +26,7 @@ namespace MangAleksejev
         }
         public string info()//Meetod info tagastab selle eseme nimetuse.
         {
+            Console.WriteLine(nimetus);
             return nimetus;
         }
     }
